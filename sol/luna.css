@@ -1,0 +1,34 @@
+
+form{
+  padding: 60px;
+  max-width: 400px;
+  background-color: #43989e7d;
+  margin: 0 auto;
+  font-family: cursive;
+  color:#000000; 
+}
+form input{
+  margin-bottom: 15px;
+  font-family: sans-serif;
+  width: 100%;
+  padding: 30px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; 
+  border: none; 
+  color: #dcdcdcb8; 
+  background-color: #dcdcdcb8;
+  font-size: 1em;
+  resize: horizontal; 
+}
+h1{
+  color:#fff;
+}
+p{
+font: message-box;
+color:#fff;
+}
+
+form{
+  color:#FFF;
+}
+  
