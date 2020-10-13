@@ -1,60 +1,39 @@
- <html>
-	<head>
-	<title>RECHEL INTERIORS</title>
-	<link rel="stylesheet" type="text/css" href="bootstrap.css"/>
-	<link rel="stylesheet" type="text/css" href="sol\yo.css"/>	
-	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
-	</head>
-	<body Background ="yeimi\1.jpg " ,  text = "black " >
+<html>
+<head>
+<title>Validacion de formulario</title>
+<link rel="stylesheet" type="text/css" href="sol/luna.css"/>
+</head>
+<body background ="yeimi/fondo.jpg">
+<script>
+		function comprobarClave(){
+		clave1 = document.f1.clave1.value
+		clave2 = document.f1.clave2.value
 
-    <header>
-        <h4>ESTE ES EL SITIO WEB DE RECHEL INTERIORS</h4>
-<nav>
-		<a href="index.html" class="blacklink" >INICIO</a>&nbsp;
-        <a href="portafolio.html" class="blacklink">CONOCENOS</a>&nbsp;
-        <a href="contact me.html" class="blacklink">SERVICIOS Y PROCESOS</a>
-        <a href="services and products.html" class="greenlink">CONTACTANOS</a>
-		</nav>
+if (clave1 == "Leslie" && clave2 == "Hernandez"){
+				alert("Los Datos Coinciden...\n Bienvenido a nuestro sitio web");
+				var href = "inicio.html";
+				window.location=href;
+				}
 
-		<section class="textos-header">
-        <h1>RECHEL HD INTERIORS</h1>
-        <h2>CREA TU HOGAR DESEADO</h2>
-        </section>
- 
-<div class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-8.74,48.84 C169.58,204.77 303.33,-24.17 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #ffff;"></path></svg></div>
-</header>
+			else{
+				alert("Las dos claves son distintas...\nIntentalo nuevamente.");
+				var href = "index.html";
+				window.location=href;
+			};
+		}
+</script>
 
-<main>
-	<section class="contenedor sobre-nosotros">
-    <h2 class="titulo">NUESTRO PROPOSITO </h2>		
-    <div class="contenedor-sobre-nosotros">
-   <img src="yeimi\logo.png" width="500" height="350" />
+<center><h1>Ingresa el nombre de usuario</h1></center>
+<br>
+<p>Escribe tu contraseña dos veces, una en cada campo,  y pulsa el botón...</p> 
+<br>
+<form action="" name="f1">
+Contraseña: <input type="password" name="clave1" size="20">
+<br>
+Confirma tu contraseña: <input type="password" name="clave2" size="20">
+<br>
+<input type="button" value="Comprobar si son iguales" onClick="comprobarClave()">
 
-  <div class="contenido-tex">
-  <h3><span>1</span>MISION</h3>
-  <p> Nuestra misión es ser una empresa líder en asesoría de diseño, decoración, remodelación y construcción de espacios, llevando a un mejoramiento en funcionalidad y bienestar, satisfaciendo las necesidades y expectativas de inversión de nuestros clientes, brindándoles un excelente servicio con un equipo de profesionales especializados.</p>
-
-<h3><span>1</span>VISION</h3>
-  <p> Nuestra visión es convertirnos en el 2020 en una empresa con prestigio, confianza y calidad para soluciones integrales de diseño, remodelación y construcción de espacios interiores y exteriores , a través de un equipo de personas que generan valor en todo lo que proponen como compromiso inspirador en su aporte corporativo.</p>
-    </div>
-	</section>
-
-
-	<main>
-	<section class="contenedor sobre-nosotros">
-  		
-    <div class="contenedor-sobre-nosotros">
-    <div class="contenido-tex">
-<figure>
-<center><img src="yeimi\luna.png" width="500" height="350" /></center>
-<figcaption><p  id = "p1" >
-Rechel Interiors te ofrece gamas de colores ideales para las habitaciones que deceas remodelar te invitamos a que sigas conociendo mas de nuestros proyectos.</p>
-
-</figcaption>
-</figure>
-
-
-<footer><h2 class="final">&copy; Leslie Raquel Hernandez Dimas | Villa Nueva-Guatemala C.A 2020 </h2>
-</footer>
+</form>
 </body>
 </html>
