@@ -15,13 +15,14 @@ form input{
   -webkit-box-sizing: border-box;
   box-sizing: border-box; 
   border: none; 
-  color: #dcdcdcb8; 
-  background-color: #dcdcdcb8;
+  color: #272525b8;
+  background-color: #dcdcdcd4;
   font-size: 1em;
   resize: horizontal; 
 }
 h1{
   color:#fff;
+  font-size: 50;
 }
 p{
 font: message-box;
@@ -32,3 +33,35 @@ form{
   color:#FFF;
 }
   
+}
+.titulo{
+  
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 60px;
+  color: #642a73;
+
+}
+nav{
+  text-align:right;
+  padding:30px 50px 0 0;
+}
+nav > a{
+  color:#1d1b1b;
+  font-weight: 300;
+  text-decoration:none;
+  margin-right:10px;
+}
+nav > a:hover{
+  text-decoration: underline;
+}
+
+
+
+.final{
+  text-align: center;
+  font-size: 24px;
+  margin: 20px 0 0 0;
+    color: #9e9797;
+    
+}

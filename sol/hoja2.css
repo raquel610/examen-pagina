@@ -1,0 +1,39 @@
+body{
+background-image: url(we.jpg);
+
+}
+form{
+  padding: 100px;
+  max-width: 700px;
+  background-color: white ;
+   opacity: 0.5;
+  margin: 0 auto;
+  font-family: cursive;
+  color: white; 
+}
+form input, button, textarea{
+  margin-bottom: 15px;
+  width: 100%;
+  padding: 10px;
+  font-family: cursive;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; 
+  border: none; 
+  color:black ; 
+  background-color: #8EEAF9  ;
+  font-size: 1em;
+ 
+}
+h1{
+  color:white;
+}
+p{
+font: message-box, bold;
+color:#4A235A;
+}
+label{
+color:  #9A7D0A ;
+}
+em{
+  color: black;
+}

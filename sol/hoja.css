@@ -1,0 +1,59 @@
+   body {
+	}
+/* Cabecera */
+header {
+	text-align:center;
+	font-family: "Latin Modern Roman 10";
+	margin:15px auto;
+	width:auto;
+	height:auto;
+	color: white;
+	padding:5px;
+	padding: 3px 10px;
+  border:white  5px solid;
+}
+
+	header h2{text-align: left; color:white; padding: 0.001em; font-size: 1.1em ;font-family: "Segoe UI";
+}
+h1{
+	color: white;
+}
+
+/* nav */
+#pio{
+	
+	display:inline;
+	margin-right:100px;
+	color:white;
+	border:25px 40px;
+	padding-right:10px;
+}
+/*navgacion*/
+ul {
+  margin: 8;
+  padding: 1;
+  overflow: hidden;
+  border: 1px solid;
+  list-style: none;
+  font-size: 1.1em ;
+  text-align: center; 
+  min-height: 2em;
+  border:white 3px solid;
+  }
+  a{
+  	color: white;
+  	text-decoration: none;
+  }
+  a:hover{
+  	font-size: 21px; 
+  	font-family: bold;
+  }
+  .greenlink: hover{
+  	color: blue;
+  	background-color: white;
+  }
+  #foot1{
+	background-color: transparent;
+	text-align:center;
+	color: white;
+} 
